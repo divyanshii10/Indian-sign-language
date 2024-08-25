@@ -1,5 +1,5 @@
 function loadGif() {
-    const gifName = document.getElementById('gifInput').value.trim(); // Get input value and trim whitespace
+    const gifName = document.getElementById('gifInput').value.trim(); 
 
     if (gifName) {
         const gifElement = document.getElementById('gif');
